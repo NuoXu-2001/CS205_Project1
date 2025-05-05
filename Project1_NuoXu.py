@@ -227,6 +227,19 @@ if __name__ == "__main__":
     print("Welcome to my 8-Puzzle Solver.")
     choice = input("Type '1' to use a default puzzle, or '2' to create your own: ").strip()
     if choice == '1':
+        # depth = 2
+        # initial_state = [[1, 2, 3],
+        #                  [4, 0, 6],
+        #                  [7, 5, 8]]
+        # depth = 4
+        # initial_state = [[1, 2, 3],
+        #                  [5, 0, 6],
+        #                  [4, 7, 8]]
+        # depth = 8
+        # initial_state = [[1, 3, 6],
+        #                  [5, 0, 2],
+        #                  [4, 7, 8]]       
+        # depth = 16
         initial_state = [[1, 6, 7],
                          [5, 0, 3],
                          [4, 8, 2]]
